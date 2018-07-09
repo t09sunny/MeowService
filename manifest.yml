@@ -1,0 +1,8 @@
+---
+applications:
+- name: MeowService
+  memory: 1024M
+  instances: 1
+  host: rest-service
+  domain: guides.spring.io
+  path: build/libs/MeowService.jar
